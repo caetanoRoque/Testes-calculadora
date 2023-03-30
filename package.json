@@ -4,7 +4,8 @@
   "description": "testes em uma calculadora",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/caetanoRoque/Testes-calculadora/issues"
   },
-  "homepage": "https://github.com/caetanoRoque/Testes-calculadora#readme"
+  "homepage": "https://github.com/caetanoRoque/Testes-calculadora#readme",
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
 }
